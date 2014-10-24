@@ -1,15 +1,22 @@
 This codebook is intended as a supplement to the documentation provided with the data at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 
 Variables in meanDT.txt
+
 id: subject identifiers from column 1 of subject_test.txt and subject_train.txt
+
 activity: Text representation of activity from column 1  of y_test.txt and y_train.txt using labels froms ylabels
+
 
 The following variables represent the mean of the column of data in column Xcolumn for subject 'id' performing activity 'activity'.   For example, tBodyAcc-mean()-X row 1 is the mean for column 1 for column 1 in X_test and X_Train when id = 1 and activity = LAYING.  Note that these column names are from features.txt
 
 XColumn Name
+
 1      tBodyAcc-mean()-X
+
 2      tBodyAcc-mean()-Y
+
 3      tBodyAcc-mean()-Z
+
 4      tBodyAcc-std()-X
 5      tBodyAcc-std()-Y
 6      tBodyAcc-std()-Z
