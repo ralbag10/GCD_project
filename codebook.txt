@@ -1,4 +1,4 @@
-This codebook is intended as a supplement to the documentation provided with the data at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+This codebook is intended as a supplement to the documentation provided with the data at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  and the README.txt file included in this repository. 
 
 Variables in meanDT.txt
 
