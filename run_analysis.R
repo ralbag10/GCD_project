@@ -43,7 +43,7 @@ actfactcol <- grep('actfact', DTnames, fixed=TRUE)
 #as columns
 DT2 <- DT[,c(1, actfactcol, meancol, sdcol)]
 
-#Create meanDT containing means of variables that contain 'mean()' of 'std()'
+#Create meanDT containing means of variables that contain 'mean()' or 'std()'
 #grouped by id and activity
 meanDT <- aggregate(DT2[3:ncol(DT2)], by=list(DT2$id, DT2$actfact), FUN=mean)
 names(meanDT)[1:2] <- c('id', 'activity')
