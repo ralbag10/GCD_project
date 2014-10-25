@@ -48,6 +48,6 @@ DT2 <- DT[,c(1, actfactcol, meancol, sdcol)]
 meanDT <- aggregate(DT2[3:ncol(DT2)], by=list(DT2$id, DT2$actfact), FUN=mean)
 names(meanDT)[1:2] <- c('id', 'activity')
 write.table(meanDT, 'meanDT.txt')
-data <- read.table('meanDT.txt', header = TRUE) #if they used some other way of saving the file than a default write.table, this step will be different
+data <- read.table('meanDT.txt', header = TRUE) 
 View(data)
 
